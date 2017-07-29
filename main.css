@@ -1,0 +1,188 @@
+
+
+body{ background: #E07E70; 
+    background: -webkit-linear-gradient(left, black , #2f2d2d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #2f2d2d,black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#2f2d2d, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right,#2f2d2d, black); /* Standard syntax (must be last) */
+
+
+    padding: 70px; 
+}
+
+
+h2 { color:#E07E70; text-align: center; letter-spacing: 3px; font-family: 'Tangerine', cursive; font-size: 36px; 
+}
+
+h1 {color:#E07E70; text-align: center;font-family: 'Raleway', sans-serif; font-size: 48px;
+}
+
+h3 { color:#E07E70; font-family: 'Raleway', sans-serif; font-size: 28px;
+}
+
+p { color: white; word-spacing: .5px;letter-spacing: .5px; font-family: 'Lato', sans-serif; font-size: 14px;
+}
+
+h4{ color:#2f2d2d; font-family: 'Raleway', sans-serif; font-size: 18px;
+}
+
+b{ color:#E07E70;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav:hover{
+     color:#71E2AD;
+}
+
+a:hover 
+{
+     color:#71E2AD; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.gray{ background:#2f2d2d;
+    opacity: .9;box-shadow: 0 3px 4npx; width: 100%;
+    height:auto;
+
+}
+
+.circled{  height:auto; width: 50%; 
+     box-shadow: 0 3px 4px; 
+     border-radius: 50%;
+
+}
+
+.image { display: block;
+width: 30%;
+height: auto;
+border-radius: 50%;
+box-shadow: 0 3px 4px;
+position: relative; 
+}
+.white {
+     background-color: white;
+     box-shadow: 0 2px 3px;
+
+ }
+
+.form{ border-color: #ab4f45 
+
+}
+
+.padding{ padding-top: 75px;
+padding-bottom: 75px;
+}
+
+.img3{
+    width:30%;
+}
+
+.bio-section{
+    
+    height: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.beauty-services-section{ height: 100%;padding-top: 50px;
+    
+  }
+
+
+.gallery-section{
+    height: 100%;
+    padding-top: 50px;
+
+}
+
+
+.reviews-section{height: 100%;
+padding-top: 50px;}
+   
+
+
+.contact-me{
+    
+    height: 100%;
+    padding-top: 50px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding-top: 10px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background:#2f2d2d;
+    color: #E07E70;
+}
+
+/* Twitter */
+.fa-instagram{
+    background:#2f2d2d;
+    color: #E07E70;
+
+
+@media(min-width:767px) {
+
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+   
+
+
+
+
+
+
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
